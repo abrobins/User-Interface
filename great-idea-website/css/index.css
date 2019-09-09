@@ -64,3 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration: none;
+	color: gray;
+	margin: 3%;
+  }
+  
+  
+  .nav_bar {
+	text-align: center;
+	  margin: 1%;
+	  padding: 1%;
+	  width: 100%;
+	  /*   display: inline-block; */
+  /*   margin: 2% */
+  /*     margin: 0 auto; */
+	padding: 1%;
+  }
+  
