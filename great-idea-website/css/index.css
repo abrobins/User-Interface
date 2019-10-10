@@ -79,20 +79,21 @@ h1, h2, h3, h4, h5 {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: white;
   margin: 3%;
-}
+  padding: 1%;
+  }
 
 
 .nav_bar {
 	  text-align: center;
 	  top: 0;
-	  background-color: rgb(173, 218, 152); /* black background */
-	  position: fixed; /* Set nav to fixed */
+    background-color: gray; /* black background */
+    border-radius: 20px;
+    position: fixed; /* Set nav to fixed */
     margin: 1%;
     padding: 1%;
-    width: 100%;
-    padding: 1%;
+    width: 98%;
 }
 
 .nav_bar:hover {
@@ -129,19 +130,19 @@ button {
 .content_2 {
     margin: 1%;
     width: 100%;
+    
 }
 
 .content_2_box {
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
+    vertical-align: middle;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    /* margin-top; 5%;
-    margin-left: 1%; */
     margin-right: 1%;  
     width: 48%;
-    min-width: 250px;
+    
 }
 
 /* New CSS content start end */
